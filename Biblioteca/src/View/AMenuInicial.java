@@ -18,8 +18,7 @@ public class AMenuInicial {
 			1) Aluguel de livro
 			2) Devolução de livro
 			3) Gerenciar livro
-			4) Gerenciar usuário
-			5) Sair
+			4) Sair
 			Escolha uma das opções
 			""";
 
@@ -41,14 +40,10 @@ public class AMenuInicial {
 		cadastrarLivro.gerenciarLivros3();;
 			break;
 	
-			case 4:
-		//cadastrarUsuario.gerenciarUsuarios4();;
-			break;
-
-		default:
+			default:
 			System.out.println("Até a próxima!");
 			break;
-			
+		
 
 		}
 

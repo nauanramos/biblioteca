@@ -33,16 +33,17 @@ public class GerenciarLivrosC {
 		Livro livroNovo = new Livro();
 
 			System.out.print("Digite a categoria do livro: ");
-			livroNovo.setCategoria(scan.next());
+			scan.nextLine();
+			livroNovo.setCategoria(scan.nextLine());
 
 			System.out.print("Digite a descrição do livro: ");
-			livroNovo.setDescricao(scan.next());
+			livroNovo.setDescricao(scan.nextLine());
 
 			System.out.print("Digite a nome do livro: ");
-			livroNovo.setNome(scan.next());
+			livroNovo.setNome(scan.nextLine());
 
 			System.out.print("Digite o autor do livro: ");
-			livroNovo.setAutor(scan.next());
+			livroNovo.setAutor(scan.nextLine());
 
 			
 			livro.cadastrarLivro(livroNovo);
